@@ -1,0 +1,23 @@
+/* FAQ.css */
+
+/* ... Outros estilos ... */
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  border-color: #333 transparent transparent transparent;
+  transition: transform 0.3s ease;
+}
+
+.open .arrow {
+  transform: rotate(180deg);
+}
