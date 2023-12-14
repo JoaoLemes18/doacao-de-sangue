@@ -1,12 +1,29 @@
-/* FAQ.css */
+.faq-section {
+  margin-top: 40px;
+}
 
-/* ... Outros estilos ... */
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.faq-item:hover {
+  border-color: #333;
+}
 
 .faq-question {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px;
+  background-color: #f9f9f9;
   cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #e0e0e0;
 }
 
 .arrow {
@@ -20,4 +37,8 @@
 
 .open .arrow {
   transform: rotate(180deg);
+}
+
+.faq-item p {
+  padding: 15px;
 }
