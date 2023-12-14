@@ -18,7 +18,9 @@ function App() {
           />
           <div className="header-text">
             <h1>Doação de Sangue</h1>
-            <p>Informações e esclarecimentos sobre doação de sangue.</p>
+            <div className="sub">
+              <p>Informações e esclarecimentos sobre doação de sangue.</p>
+            </div>
           </div>
         </div>
       </header>
