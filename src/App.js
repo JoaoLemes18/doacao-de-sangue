@@ -20,9 +20,9 @@ function App() {
         <How />
         <Conditions />
         <FAQ />
+        <Footer />
+        <WhatsAppIcon />
       </main>
-      <Footer />
-      <WhatsAppIcon />
     </div>
   );
 }
