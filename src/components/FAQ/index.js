@@ -82,6 +82,16 @@ const faqData = [
       que você está tomando. Algumas medicações não são impeditivas, enquanto outras \
       podem requerer uma espera antes da doação. Consulte o centro de doação para obter informações específicas.",
   },
+  {
+    question: "9 -  O material usado é mesmo seguro?",
+    answer:
+      "Sim, todo o material usado para a coleta de sangue é individual, descartável, apirogênico (não causa febre) e estéril.",
+  },
+  {
+    question: "10 -  Qualquer grau de “anemia” impede a doação? Por que?",
+    answer:
+      "Não pode doar a pessoa que apresentar hematócrito menor que 39% (ou hemoglobina <13g/dL) no homem e 38% (ou hemoglobina < 12,5 g/dL) na mulher. Este limite é necessário para não causar prejuízos à saúde do doador e permitir a coleta da quantidade de sangue estipulada como uma unidade (dose) para um adulto.",
+  },
 ];
 
 export default FAQ;
