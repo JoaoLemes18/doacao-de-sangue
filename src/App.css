@@ -172,7 +172,7 @@ section {
   animation: fadeInUp 1s ease-in-out;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1124px) {
   /* Ajustes para dispositivos móveis com largura máxima de 768px */
 
   .App-header {
