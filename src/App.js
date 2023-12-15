@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import FAQ from "./components/FAQ";
 import WhatsAppIcon from "./components/WhatsAppIcon";
-import logoImage from "./imagens/logo.png"; // Substitua pelo caminho real da sua imagem
+import logoImage from "./imagens/logo.png";
 
 import hemocentroImage from "./imagens/hemocentro.jpg";
 
@@ -66,7 +66,7 @@ function App() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Agende aqui a sua doação!{" "}
+                      Agende aqui a sua doação!
                     </a>
                   </p>
                 </div>
@@ -113,7 +113,7 @@ function App() {
         <FAQ />
       </main>
       <footer style={{ textAlign: "center" }}>
-        <p>&copy; 2023 Doação de Sangue Cuiabá</p>
+        <p>&copy; 2023 Doação de Sangue </p>
       </footer>
       <WhatsAppIcon />
     </div>

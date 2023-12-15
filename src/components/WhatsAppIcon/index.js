@@ -6,7 +6,7 @@ const WhatsAppIcon = () => {
   return (
     <div className="whatsapp-icon">
       <a
-        href="https://api.whatsapp.com/send?phone=SEU_NUMERO_DE_TELEFONE"
+        href="https://api.whatsapp.com/send?phone=5565984330624"
         target="_blank"
         rel="noopener noreferrer"
       >

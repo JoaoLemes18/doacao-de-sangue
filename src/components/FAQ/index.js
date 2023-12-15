@@ -10,7 +10,7 @@ const FAQ = () => {
 
   return (
     <section className="faq-section">
-      <h2>Perguntas Frequentes</h2>
+      <h2>Dúvidas e Perguntas</h2>
       {faqData.map((item, index) => (
         <div
           key={index}
@@ -31,46 +31,52 @@ const FAQ = () => {
 
 const faqData = [
   {
-    question: "Qual é a idade mínima para doar sangue?",
+    question: "1 - Qual é a idade mínima para doar sangue?",
     answer:
       "A idade mínima para doar sangue é geralmente 16 anos, com o consentimento dos pais ou responsáveis legais. \
       Para doadores entre 16 e 18 anos, é necessário o acompanhamento de um adulto.",
   },
   {
-    question: "Com que frequência posso doar sangue?",
+    question: "2 - Com que frequência posso doar sangue?",
     answer:
       "Em geral, homens podem doar sangue a cada 2 meses (60 dias) e mulheres a cada 3 meses (90 dias). \
       No entanto, esses intervalos podem variar, e é importante verificar as orientações específicas do centro de doação.",
   },
   {
-    question: "Quanto tempo dura o processo de doação de sangue?",
+    question: "3 - Por que pessoas com menos de 50 kg não podem doar?",
+    answer:
+      "O volume a ser doado é proporcional ao peso do doador. Para homens é de 9 mL/kg e para mulheres, 8 mL/kg. O anticoagulante presente na bolsa de doação mistura-se ao sangue impedindo que esse coagule. O volume de anticoagulante da bolsa (63 mL) é padronizado para um mínimo de 400 mL de sangue, logo uma pessoa com peso menor que 50 quilos não poderia doar o volume mínimo, pois sobraria anticoagulante livre o que é indesejável (pode lesar os glóbulos vermelhos). Não se recomenda violar a bolsa para retirar anticoagulante sob o risco de contaminação bacteriana. Este procedimento só deverá ser feito em circunstâncias especiais em que os benefícios superem os riscos, como, por exemplo, na doação autóloga (quando o doador doa seu sangue para uso nele mesmo geralmente durante uma cirurgia programada).",
+  },
+  {
+    question: "4 - Quanto tempo dura o processo de doação de sangue?",
     answer:
       "O processo de doação de sangue geralmente leva cerca de 10 a 15 minutos. \
       No entanto, o tempo total pode variar dependendo do centro de doação e da agilidade do doador em preencher o formulário e passar pela triagem.",
   },
   {
-    question: "Posso doar sangue se estiver resfriado ou gripado?",
+    question: "5 - Posso doar sangue se estiver resfriado ou gripado?",
     answer:
       "Se você estiver se sentindo doente, é recomendável adiar a doação de \
       sangue para garantir a segurança do doador e a qualidade do sangue doado. \
       Espere até se recuperar completamente antes de doar.",
   },
   {
-    question: "Existe algum risco ao doar sangue?",
+    question: "6 - Existe algum risco ao doar sangue?",
     answer:
       "A doação de sangue é geralmente segura, e os profissionais de saúde seguem \
       protocolos rigorosos para garantir a segurança do doador. No entanto, alguns \
       podem sentir tonturas temporárias ou fraqueza após a doação.",
   },
   {
-    question: "Quais são os benefícios da doação de sangue?",
+    question: "7 - Quais são os benefícios da doação de sangue?",
     answer:
       "A doação de sangue pode ajudar a salvar vidas e contribuir para tratamentos \
       médicos essenciais. Além disso, alguns estudos sugerem que a doação regular \
       pode ter benefícios para a saúde do doador, como a redução do risco de certas doenças.",
   },
+
   {
-    question: "Posso doar sangue se estiver tomando medicamentos?",
+    question: "8 - Posso doar sangue se estiver tomando medicamentos?",
     answer:
       "A elegibilidade para doação de sangue pode depender do tipo de medicamento \
       que você está tomando. Algumas medicações não são impeditivas, enquanto outras \
