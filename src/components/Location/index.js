@@ -4,8 +4,9 @@ import hemocentroImage from "../../imagens/hemocentro.jpg";
 
 function Location() {
   return (
+    //deveria listar de um banco de dados,as info de hospitais que precisam de doação
     <section>
-      <h2>Locais de Doação em Cuiabá</h2>
+      <h2>Locais de Doação</h2>
       <ul className="donation-locations-list">
         <li>
           <div className="donation-location-info">
