@@ -34,6 +34,7 @@ main {
 .header-content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 section {
@@ -170,7 +171,10 @@ li::before {
 section {
   animation: fadeInUp 1s ease-in-out;
 }
+
 @media only screen and (max-width: 768px) {
+  /* Ajustes para dispositivos móveis com largura máxima de 768px */
+
   .App-header {
     font-size: calc(12px + 2vmin);
   }
