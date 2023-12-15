@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f4f4f4;
 }
 
 .App {
@@ -18,9 +19,11 @@ body {
 }
 
 .App-header {
+  background-color: #282c34;
   padding: 20px;
   text-align: left;
 }
+
 main {
   padding: 20px;
   background-color: white;
@@ -86,13 +89,12 @@ li::before {
   left: 0;
 }
 .logo {
-  width: 255px;
+  width: 280px;
   height: auto;
-  background-color: white;
 }
 
 .header-text {
-  color: #282c34;
+  color: white;
   max-width: 600px;
   margin-left: 30px;
 }
