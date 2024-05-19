@@ -21,7 +21,7 @@ function How() {
           elegibilidade.
         </li>
         <li>
-          Passe por uma entrevista com um profissional de saúde para garantir a
+          Passe por uma triagem com um profissional de saúde para garantir a
           segurança do processo.
         </li>
         <li>

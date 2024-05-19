@@ -7,9 +7,6 @@ function Conditions() {
       <h2>Algumas Condições que Impedem a Doação de Sangue</h2>
       <ol>
         <li>
-          <strong>Anemia</strong>
-        </li>
-        <li>
           <strong>Pressão arterial alta</strong> (Máxima acima de 180 ou Mínima
           acima de 100 mmHg)
         </li>

@@ -23,12 +23,6 @@ const Header: React.FC = () => {
         <nav className="nav-links">
           <button
             className="nav-link"
-            onClick={() => scrollToSection("porque-doar")}
-          >
-            Porque Doar Sangue?
-          </button>
-          <button
-            className="nav-link"
             onClick={() => scrollToSection("locais")}
           >
             Locais de Doação

@@ -31,6 +31,7 @@ main {
 }
 
 .header-content {
+  justify-content: space-between;
   display: flex;
   align-items: center;
 }
@@ -107,8 +108,8 @@ li::before {
   border: none;
   cursor: pointer;
   font-size: 16px;
-  margin-right: 20px;
   color: white;
+  margin: 15px;
 }
 
 .nav-link:hover {

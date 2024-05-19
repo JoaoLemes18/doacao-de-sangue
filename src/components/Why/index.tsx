@@ -3,7 +3,7 @@ import "../../App.css";
 
 function Why() {
   return (
-    <section id="porque-doar">
+    <section>
       <h2>Por que doar sangue?</h2>
       <p>
         A doação de sangue é um ato nobre que pode salvar vidas. O sangue é
