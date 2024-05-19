@@ -26,7 +26,7 @@ function How() {
         </li>
         <li>
           Realize a doação de sangue, que geralmente leva cerca de 10 a 15
-          minutos.
+          minutos (dependendo do local pode ser até mais).
         </li>
         <li>Recupere-se com um lanche fornecido pelo centro de doação.</li>
       </ol>

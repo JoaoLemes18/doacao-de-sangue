@@ -4,7 +4,7 @@ import "../../App.css";
 function Conditions() {
   return (
     <section id="condicoes">
-      <h2>Algumas Condições que Impedem a Doação de Sangue</h2>
+      <h2>Algumas condições que impedem a doação de sangue</h2>
       <ol>
         <li>
           <strong>Pressão arterial alta</strong> (Máxima acima de 180 ou Mínima

@@ -9,6 +9,7 @@ import Why from "./components/Why";
 import Location from "./components/Location";
 import Conditions from "./components/Conditions";
 import Footer from "./components/Footer";
+import Who from "./components/Who";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Why />
         <Location />
         <How />
+        <Who />
         <Conditions />
         <FAQ />
         <Footer />
