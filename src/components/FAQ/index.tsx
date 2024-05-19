@@ -1,35 +1,12 @@
 import React, { useState } from "react";
 import "./faq.css";
 
-const FAQ = () => {
-  const [openQuestion, setOpenQuestion] = useState(null);
+interface FAQItem {
+  question: string;
+  answer: string;
+}
 
-  const toggleQuestion = (index) => {
-    setOpenQuestion((prevIndex) => (prevIndex === index ? null : index));
-  };
-
-  return (
-    <section className="faq-section">
-      <h2>Dúvidas e Perguntas</h2>
-      {faqData.map((item, index) => (
-        <div
-          key={index}
-          className={`faq-item ${openQuestion === index ? "active" : ""}`}
-        >
-          <div className="faq-question" onClick={() => toggleQuestion(index)}>
-            <h3>{item.question}</h3>
-            <span
-              className={`arrow ${openQuestion === index ? "open" : "closed"}`}
-            ></span>
-          </div>
-          {openQuestion === index && <p>{item.answer}</p>}
-        </div>
-      ))}
-    </section>
-  );
-};
-
-const faqData = [
+const faqData: FAQItem[] = [
   {
     question: "1 - Qual é a idade mínima para doar sangue?",
     answer:
@@ -93,5 +70,33 @@ const faqData = [
       "Não pode doar a pessoa que apresentar hematócrito menor que 39% (ou hemoglobina <13g/dL) no homem e 38% (ou hemoglobina < 12,5 g/dL) na mulher. Este limite é necessário para não causar prejuízos à saúde do doador e permitir a coleta da quantidade de sangue estipulada como uma unidade (dose) para um adulto.",
   },
 ];
+
+const FAQ: React.FC = () => {
+  const [openQuestion, setOpenQuestion] = useState<number | null>(null);
+
+  const toggleQuestion = (index: number) => {
+    setOpenQuestion((prevIndex) => (prevIndex === index ? null : index));
+  };
+
+  return (
+    <section className="faq-section">
+      <h2>Dúvidas e Perguntas</h2>
+      {faqData.map((item, index) => (
+        <div
+          key={index}
+          className={`faq-item ${openQuestion === index ? "active" : ""}`}
+        >
+          <div className="faq-question" onClick={() => toggleQuestion(index)}>
+            <h3>{item.question}</h3>
+            <span
+              className={`arrow ${openQuestion === index ? "open" : "closed"}`}
+            ></span>
+          </div>
+          {openQuestion === index && <p>{item.answer}</p>}
+        </div>
+      ))}
+    </section>
+  );
+};
 
 export default FAQ;

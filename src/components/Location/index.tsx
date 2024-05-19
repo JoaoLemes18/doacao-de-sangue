@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import hemocentroImage from "../../imagens/hemocentro.jpg";
+import hemocentroImage from "../../assets/hemocentro.jpg";
 
 function Location() {
   return (
