@@ -10,10 +10,9 @@ function Location() {
       <div>
         {donationLocations.map((location, index) => (
           <div className="donation-location-info" key={index}>
-            <img src={location.image} alt={location.name} />
-
             <div>
               <h3>{location.name}</h3>
+              <img src={location.image} alt={location.name} />
               <p>
                 <a
                   href={location.link}
