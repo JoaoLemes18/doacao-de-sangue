@@ -1,32 +1,33 @@
 import React from "react";
 import "../../App.css";
-import hemocentroImage from "../../assets/hemocentro.jpg";
+import { donationLocations } from "../../data";
 
 function Location() {
   return (
     //deveria listar de um banco de dados,as info de hospitais que precisam de doação
     <section id="locais">
       <h2>Locais de Doação</h2>
-      <ul className="donation-locations-list">
-        <li>
-          <div className="donation-location-info">
-            <img src={hemocentroImage} alt="Hemocentro de Cuiabá" />
+      <div>
+        {donationLocations.map((location, index) => (
+          <div className="donation-location-info" key={index}>
+            <img src={location.image} alt={location.name} />
 
             <div>
-              <h3>Hemocentro de Cuiabá</h3>
+              <h3>{location.name}</h3>
               <p>
                 <a
-                  href="https://mthemocentro.saude.mt.gov.br/"
+                  href={location.link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Agende aqui a sua doação!
+                  {location.linkText}
                 </a>
               </p>
+              <h4>{location.description}</h4>
             </div>
           </div>
-        </li>
-      </ul>
+        ))}
+      </div>
     </section>
   );
 }
