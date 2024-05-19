@@ -3,7 +3,7 @@ import "../../App.css";
 
 function Conditions() {
   return (
-    <section>
+    <section id="condicoes">
       <h2>Algumas Condições que Impedem a Doação de Sangue</h2>
       <ol>
         <li>

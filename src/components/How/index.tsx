@@ -3,7 +3,7 @@ import "../../App.css";
 
 function How() {
   return (
-    <section>
+    <section id="como-doar">
       <h2>Como Doar?</h2>
       <p>
         Doar sangue é um processo simples e seguro. Aqui estão os passos básicos

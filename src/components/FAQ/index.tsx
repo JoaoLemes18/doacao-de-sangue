@@ -79,7 +79,7 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <section className="faq-section">
+    <section className="faq-section" id="faq">
       <h2>Dúvidas e Perguntas</h2>
       {faqData.map((item, index) => (
         <div

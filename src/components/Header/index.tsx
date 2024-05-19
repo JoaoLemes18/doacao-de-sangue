@@ -2,24 +2,56 @@ import React from "react";
 import logoImage from "../../assets/logo.png";
 import "../../App.css";
 
-function Header() {
+const Header: React.FC = () => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <header className="App-header">
       <div className="header-content">
-        <img
-          src={logoImage}
-          alt="Logo da Doação de Sangue Cuiabá"
-          className="logo"
-        />
-        <div className="header-text">
-          <h1>Doação de Sangue</h1>
-          <div className="sub">
-            <p>Informações e esclarecimentos sobre doação de sangue.</p>
-          </div>
-        </div>
+        <a href="#top" className="logo-link">
+          <img
+            src={logoImage}
+            alt="Logo da Doação de Sangue Cuiabá"
+            className="logo"
+          />
+        </a>
+        <nav className="nav-links">
+          <button
+            className="nav-link"
+            onClick={() => scrollToSection("porque-doar")}
+          >
+            Porque Doar Sangue?
+          </button>
+          <button
+            className="nav-link"
+            onClick={() => scrollToSection("locais")}
+          >
+            Locais de Doação
+          </button>
+          <button
+            className="nav-link"
+            onClick={() => scrollToSection("como-doar")}
+          >
+            Como Doar
+          </button>
+          <button
+            className="nav-link"
+            onClick={() => scrollToSection("condicoes")}
+          >
+            Condições
+          </button>
+          <button className="nav-link" onClick={() => scrollToSection("faq")}>
+            FAQ
+          </button>
+        </nav>
       </div>
     </header>
   );
-}
+};
 
 export default Header;
