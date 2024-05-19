@@ -187,8 +187,21 @@ section {
   animation: fadeInUp 1s ease-in-out;
 }
 @media only screen and (max-width: 768px) {
-  .App-header {
-    font-size: calc(12px + 2vmin);
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    margin-top: 20px;
+  }
+
+  .nav-link {
+    margin: 0;
   }
 
   main {
