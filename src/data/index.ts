@@ -22,7 +22,7 @@ export const donationLocations: DonationLocation[] = [
     link: "https://www.ihemco.com.br/",
     linkText: "Marque por aqui a sua doação",
     description:
-      "Anexo a Santa Casa de Misericórdia de Cuiabá Praça Bispo Dom José - Cuiabá-MT",
+      "Anexo a Santa Casa de Misericórdia de Cuiabá, Praça Bispo Dom José.",
   },
   {
     name: "Centro de Hematologia e Hemoterapia - HEMOSAN",

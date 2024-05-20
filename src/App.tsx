@@ -17,9 +17,10 @@ function App() {
       <Header />
       <main>
         <Why />
-        <Location />
+
         <How />
         <Who />
+        <Location />
         <Conditions />
         <FAQ />
         <Footer />

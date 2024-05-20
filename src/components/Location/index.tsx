@@ -13,6 +13,8 @@ function Location() {
             <div>
               <h3>{location.name}</h3>
               <img src={location.image} alt={location.name} />
+
+              <h4>{location.description}</h4>
               <p>
                 <a
                   href={location.link}
@@ -22,7 +24,6 @@ function Location() {
                   {location.linkText}
                 </a>
               </p>
-              <h4>{location.description}</h4>
             </div>
           </div>
         ))}

@@ -1,5 +1,6 @@
 import React from "react";
 import "../../App.css";
+import logo from "../../assets/logo.png";
 
 const Header: React.FC = () => {
   const scrollToSection = (id: string) => {
@@ -12,6 +13,7 @@ const Header: React.FC = () => {
   return (
     <header className="App-header">
       <div className="header-content">
+        <img src={logo} alt="Logo" className="logo" />
         <nav className="nav-links">
           <button
             className="nav-link"
